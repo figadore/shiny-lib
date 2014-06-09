@@ -1,0 +1,24 @@
+{
+    "repositories": {
+        "shiny-lib": {
+            "type": "package",
+            "package": {
+                "name": "shinymayhem/shiny-lib",
+                "description": "Initial release with xml2array trait",
+                "version": "0.0.2",
+                "source": {
+                    "url": "https://github.com/shinymayhem/shiny-lib",
+                    "type": "git",
+                    "reference": "0.0.2"
+                }
+            }
+        }
+    },
+    "require": {
+    },
+    "autoload": {
+        "psr-0": {
+            "shiny-lib": "vendor/shinymayhem/shiny-lib/src"
+        }
+    }
+}
