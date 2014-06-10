@@ -10,8 +10,8 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.0-dev",
-            "stable": "0.0.2-stable"
+            "dev-master": "0.0.x-dev",
+            "dev-stable": "0.0.2-stable"
         }
     },
     "require": {
