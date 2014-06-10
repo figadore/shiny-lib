@@ -1,4 +1,13 @@
 {
+    "name": "shinymayhem/shiny-lib",
+    "description": "Base lib with Xml2Array trait",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Reese Wilson",
+            "email": "reese@shinymayhem.com"
+        }
+    ],
     "repositories": {
         "shiny-lib": {
             "type": "package",
