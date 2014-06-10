@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-0": {
-            "shiny-lib": "vendor/shinymayhem/shiny-lib/src"
+            "ShinyLib": "src/"
         }
     }
 }
