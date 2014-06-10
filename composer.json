@@ -8,19 +8,10 @@
             "email": "reese@shinymayhem.com"
         }
     ],
-    "repositories": {
-        "shiny-lib": {
-            "type": "package",
-            "package": {
-                "name": "shinymayhem/shiny-lib",
-                "description": "Initial release with xml2array trait",
-                "version": "0.0.2",
-                "source": {
-                    "url": "https://github.com/shinymayhem/shiny-lib",
-                    "type": "git",
-                    "reference": "0.0.2"
-                }
-            }
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0-dev",
+            "stable": "0.0.2-stable"
         }
     },
     "require": {
