@@ -25,6 +25,8 @@ trait Array2XmlTrait {
 
     protected $_allowNumericTags = true; //if set to false, numeric keys throw exception
     protected $_numericTagPrefix = "element-"; //converts <0> to <element-0>
+    protected $_convertSpaces = true;
+    protected $_convertSpacesString = "-"; //converts " " to "-"
     private $xml = null;
     private $encoding = 'UTF-8';
 
@@ -64,6 +66,10 @@ trait Array2XmlTrait {
 
         //print_arr($node_name);
         $xml = $this->getXMLRoot();
+		if ($this->_convertSpaces)
+		{
+			$node_name = str_replace(' ', $this->_convertSpacesString, $node_name);
+		}
         $node = $xml->createElement($node_name);
 
         if(is_array($arr)){
